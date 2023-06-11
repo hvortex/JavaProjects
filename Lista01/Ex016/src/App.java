@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
-    System.out.print("Digite o tamanho da área a ser pintada (em metros quadrados): ");
+    System.out.print("Digite o tamanho da área a ser pintada em metros quadrados");
         double areaPintada = teclado.nextDouble();
 
         double coberturaTinta = 6.0; 
