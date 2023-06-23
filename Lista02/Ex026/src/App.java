@@ -35,9 +35,9 @@ public class App {
             return;
         }
 
-        double valorTotal = litros * precoLitro;
-        double valorDesconto = valorTotal * desconto;
-        double valorFinal = valorTotal - valorDesconto;
+        float valorTotal = litros * precoLitro;
+        float valorDesconto = valorTotal * desconto;
+        float valorPagamento = valorTotal - valorDesconto;
 
         System.out.println("Valor a ser pago: R$" + valorFinal);
     }
