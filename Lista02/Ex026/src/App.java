@@ -39,6 +39,6 @@ public class App {
         double valorDesconto = valorTotal * desconto;
         double valorPagamento = valorTotal - valorDesconto;
 
-        System.out.println("Valor a ser pago: R$" + valorPagamento);
+        System.out.printf("Valor a ser pago: R$%.2f%n", valorPagamento);
     }
 }
