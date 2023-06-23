@@ -35,10 +35,10 @@ public class App {
             return;
         }
 
-        float valorTotal = litros * precoLitro;
-        float valorDesconto = valorTotal * desconto;
-        float valorPagamento = valorTotal - valorDesconto;
+        double valorTotal = litros * precoLitro;
+        double valorDesconto = valorTotal * desconto;
+        double valorPagamento = valorTotal - valorDesconto;
 
-        System.out.println("Valor a ser pago: R$" + valorFinal);
+        System.out.println("Valor a ser pago: R$" + valorPagamento);
     }
 }
