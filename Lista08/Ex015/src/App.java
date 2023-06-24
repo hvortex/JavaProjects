@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Tamagoshi bichinho = new Tamagoshi("Cachorro");
+        Tamagoshi animal = new Tamagoshi("Cachorro");
 
-        System.out.println("Nome: " + bichinho.retornarNome());
-        System.out.println("Fome: " + bichinho.retornarFome());
-        System.out.println("Saúde: " + bichinho.retornarSaude());
+        System.out.println("Nome: " + animal.retornarNome());
+        System.out.println("Fome: " + animal.retornarFome());
+        System.out.println("Saúde: " + animal.retornarSaude());
     }
 }
