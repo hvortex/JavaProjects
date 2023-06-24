@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class App {
 
-    public static void main(String[] args) {
-        BombaDeCombustivel bomba = new BombaDeCombustivel("Gasolina", 4.5, 1000);
+public static void main(String[] args) throws Exception {
 
-        Scanner teclado = new Scanner(System.in);
+Scanner teclado = new Scanner(System.in);
+
+        BombaDeCombustivel bomba = new BombaDeCombustivel("Gasolina", 4.5, 1000);
 
         int opcao;
         do {

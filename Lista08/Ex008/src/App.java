@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Macaco macaco1 = new Macaco("Macaco1");
         Macaco macaco2 = new Macaco("Macaco2");
 
