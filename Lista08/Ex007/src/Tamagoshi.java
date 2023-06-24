@@ -1,4 +1,4 @@
-public class Tamagushi {
+public class Tamagoshi {
 
     private String nome;
     private int fome;
@@ -6,7 +6,7 @@ public class Tamagushi {
     private int idade;
     private String humor;
 
-    public Tamagushi(String nome) {
+    public Tamagoshi(String nome) {
         this.nome = nome;
         this.fome = 0;
         this.saude = 100;
