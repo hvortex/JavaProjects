@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-    Tamagoshi animal = new Tamagoshi("Cachorro");
+
     Scanner teclado = new Scanner(System.in);
+
+    Tamagoshi cachorro = new Tamagoshi("Tobi", 40, 80);
 
         int escolha = 0;
         while (escolha != 4) {
@@ -17,11 +19,11 @@ public class App {
                 case 1:
                     System.out.println("Quantidade de comida:");
                     int quantidadeComida = teclado.nextInt();
-                    animal.alimentar(quantidadeComida);
+                    cachorro.alimentar(quantidadeComida);
                     break;
                 case 3:
                     System.out.println("Status geral!");
-                    System.out.println(animal.toString());
+                    System.out.println(cachorro.toString());
                     break;
             }
         }

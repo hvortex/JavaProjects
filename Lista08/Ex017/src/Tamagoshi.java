@@ -5,13 +5,15 @@ public class Tamagoshi {
     private int saude;
     private int idade;
     private String humor;
+    private String barulho;
 
-    public Tamagoshi(String nome, int fome, int saude) {
+    public Tamagoshi(String nome, int fome, int saude, String barulho) {
         this.nome = nome;
         this.fome = 0;
         this.saude = 100;
         this.idade = 0;
         this.humor = calcularHumor();
+        this.barulho = barulho;
     }
 
     public void alterarNome(String novoNome) {
@@ -38,6 +40,9 @@ public class Tamagoshi {
         this.idade = novaIdade;
     }
 
+    public void alterarBarulho(String novoBarulho) {
+        this.barulho = novoBarulho;
+    }
     public String retornarNome() {
         return nome;
     }
@@ -58,6 +63,10 @@ public class Tamagoshi {
         return humor;
     }
 
+        public String barulho() {
+        return barulho;
+    }
+
     private String calcularHumor() {
         if (fome <= 5 && saude >= 5) {
             return "Feliz";
@@ -72,6 +81,7 @@ public class Tamagoshi {
                 "\nFome: " + fome +
                 "\nSaúde: " + saude +
                 "\nIdade: " + idade +
-                "\nHumor: " + humor;
+                "\nHumor: " + humor +
+                "\nBarulho: " + barulho;
     }
 }
