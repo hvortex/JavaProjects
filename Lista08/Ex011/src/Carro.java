@@ -27,10 +27,4 @@ public class Carro {
         System.out.println("Feito o abastecimento de " + quantidade + " litros.");
     }
 
-    public static void main(String[] args) {
-        Carro meuFusca = new Carro(15);
-        meuFusca.adicionarCombustivel(20);
-        meuFusca.andar(100); 
-        System.out.println("Restam " + meuFusca.obterCombustivel() + " litros de combustível");
-    }
 }
